@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Proxima Nova";
-  src: url("[path to fonts]/ProximaNova-Regular-webfont.woff2") format("woff2"), url("[path to fonts]/ProximaNova-Regular-webfont.woff") format("woff");
+  src: url("fonts/ProximaNova-Regular-webfont.woff2") format("woff2"), url("fonts/ProximaNova-Regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Proxima Nova";
-  src: url("[path to fonts]/ProximaNova-Semibold-webfont.woff2") format("woff2"), url("[path to fonts]/ProximaNova-Semibold-webfont.woff") format("woff");
+  src: url("fonts/ProximaNova-Semibold-webfont.woff2") format("woff2"), url("fonts/ProximaNova-Semibold-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: "Caponi-Slab-Semibold";
-  src: url("[path to fonts]/CaponiSlab-Semibold-Web.woff") format("woff"), url("[path to fonts]/CaponiSlab-Semibold-Web.woff2") format("woff2"), url("../fonts/CaponiSlab-Semibold-Web.svg#svgFontName") format("svg");
+  src: url("fonts/CaponiSlab-Semibold-Web.woff") format("woff"), url("fonts/CaponiSlab-Semibold-Web.woff2") format("woff2"), url("../fonts/CaponiSlab-Semibold-Web.svg#svgFontName") format("svg");
   font-weight: 600;
   font-style: normal;
   font-stretch: normal; }
