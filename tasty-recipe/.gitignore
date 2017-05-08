@@ -1,4 +1,5 @@
-##Solid
+##Solid and Sass
 /.sass-cache/
 .sass-cache/
 .sass-cache
+sass/node_modules
