@@ -1,11 +1,21 @@
-/*Typography*/
+/*Content*/
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*Basic Typography*/
 .extrabold {
   font-weight: 800;
 }
-.ingredients--list p {
-  margin-top: 0;
-  margin-bottom: .5em;
-}
+
+@media (min-width: 52rem) {
+  h1 {
+    font-size: 56px;
+    line-height: 1;
+    }
+  }
+
 
 /*Buttons: FPO – THESE ARE OBVI WRONG*/
 .button--round {
@@ -20,6 +30,18 @@
 .button--link {
   background-color: #6645DD !important;
 }
+.button--print {
+  background-color: #6645dd !important;
+}
+.button--share {
+  background-color: #18C1EE !important;
+}
+
+/*Ingredients*/
+.ingredients--list p {
+  margin-top: 0;
+  margin-bottom: .5em;
+}
 
 /*Prep steps*/
 .preparation--steps {
@@ -33,7 +55,6 @@
 .preparation--steps ol {
   margin-left: 0;
 }
-
 
 .preparation--steps li {
   counter-increment: step-counter;
