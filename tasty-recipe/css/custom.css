@@ -1,0 +1,51 @@
+/*Typography*/
+.extrabold {
+  font-weight: 800;
+}
+.ingredients--list p {
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+/*Buttons: FPO – THESE ARE OBVI WRONG*/
+.button--round {
+  border-radius: 50% !important;
+}
+.button--round svg {
+  margin-right: 0 !important;
+}
+.button--email {
+  background-color: #0dccb0 !important;
+}
+.button--link {
+  background-color: #6645DD !important;
+}
+
+/*Prep steps*/
+.preparation--steps {
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  list-style: none;
+  line-height: 1.4;
+}
+
+.preparation--steps ol {
+  margin-left: 0;
+}
+
+
+.preparation--steps li {
+  counter-increment: step-counter;
+  margin-bottom: 1rem;
+}
+
+.preparation--steps li::before {
+  display: inline-block;
+  position: absolute;
+  content: counter(step-counter);
+  margin-right: 1rem;
+  color: #f43192;
+  font-weight: 800;
+  margin-left: -2rem;
+}

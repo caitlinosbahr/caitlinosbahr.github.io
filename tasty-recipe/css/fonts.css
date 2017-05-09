@@ -15,6 +15,13 @@
 }
 
 @font-face {
+  font-family: "Proxima Nova";
+  src: url("../fonts/ProximaNova-Xbold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Caponi-Slab-Semibold";
   src: url("../fonts/CaponiSlab-Semibold-Web.woff") format("woff"),
        url("../fonts/CaponiSlab-Semibold-Web.woff2") format("woff2"), url("../fonts/CaponiSlab-Semibold-Web.svg#svgFontName") format("svg");
