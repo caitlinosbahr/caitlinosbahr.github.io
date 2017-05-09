@@ -10,7 +10,7 @@ body {
 }
 
 @media (min-width: 52rem) {
-  h1 {
+  .recipe--title  {
     font-size: 56px;
     line-height: 1;
     }
