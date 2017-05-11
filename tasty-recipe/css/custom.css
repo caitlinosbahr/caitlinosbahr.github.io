@@ -8,6 +8,9 @@
 .extrabold {
   font-weight: 800;
 }
+.link-tasty {
+  color: #18C1EE;
+}
 
 @media screen and (min-width: 40rem) {
   .recipe--title  {
@@ -15,7 +18,6 @@
     line-height: 1;
     }
   }
-
   @media screen and (min-width: 52rem) {
   .recipe--title  {
     font-size: 56px;
