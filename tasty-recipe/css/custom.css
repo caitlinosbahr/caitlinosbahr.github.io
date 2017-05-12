@@ -46,6 +46,16 @@
   background-color: #18C1EE !important;
 }
 
+/*Video*/
+.video .play {
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.video:hover .play {
+  transform: scale(1.2);
+}
+
 /*Ingredients*/
 .ingredients--list p {
   margin-top: 0;
