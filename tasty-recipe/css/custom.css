@@ -4,6 +4,23 @@
   margin: auto;
 }
 
+/*Nav*/
+.fill-tasty {
+  background-color: #18C1EE;
+}
+@media screen {
+  .logo  {
+    width: 100px;
+    margin-bottom: -1.5rem;
+    }
+  }
+  @media screen and (min-width: 52rem) {
+  .logo  {
+    width: 150px;
+    margin-bottom: -2rem;
+    }
+  }
+
 /*Basic Typography*/
 .extrabold {
   font-weight: 800;
@@ -26,9 +43,11 @@
   }
 
 
-/*Buttons: FPO – THESE ARE OBVI WRONG*/
+/*Buttons: FPO – THESE ARE OBVI WRONG. Hover and shape should be fixed but let's pretend*/
 .button--round {
   border-radius: 50% !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
 }
 .button--round svg {
   margin-right: 0 !important;
@@ -87,15 +106,18 @@
   margin-left: -2rem;
 }
 
-/*Related*/
-.related--item img {
+/*Tile hover*/
+.tile {
+  cursor: pointer;
+}
+.tile img {
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
-.related--item:hover img {
+.tile:hover img {
   opacity: .5;
 }
-.related--item:hover p {
+.tile:hover p {
   color: #18C1EE;
 }
