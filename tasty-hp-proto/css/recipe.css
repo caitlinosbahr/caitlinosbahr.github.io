@@ -106,18 +106,7 @@
   margin-left: -2rem;
 }
 
-/*Tile hover*/
-.tile {
-  cursor: pointer;
-}
-.tile img {
-  opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.tile:hover img {
-  opacity: .5;
-}
-.tile:hover p {
-  color: #18C1EE;
+
+.merch-item {
+  flex: 0 0 72pt;
 }
