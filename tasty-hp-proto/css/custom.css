@@ -1,0 +1,85 @@
+/*Content*/
+.maxwidth {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*Nav*/
+.fill-tasty {
+  background-color: #18C1EE;
+}
+@media screen {
+  .logo  {
+    width: 100px;
+    margin-bottom: -1.5rem;
+    }
+  }
+  @media screen and (min-width: 64rem) {
+  .logo  {
+    width: 150px;
+    margin-bottom: -2rem;
+    }
+  }
+
+.logo {
+  cursor: pointer;
+}
+
+
+
+
+/*Basic Typography*/
+.extrabold {
+  font-weight: 800;
+}
+.link-tasty {
+  color: #18C1EE;
+}
+
+/* Customized pop from hover.css library*/
+@-webkit-keyframes hvr-pop {
+  60% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  60% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  /*vertical-align: middle;*/
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+/*Tile hover*/
+.tile {
+  cursor: pointer;
+}
+.tile img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.tile:hover img {
+  opacity: .5;
+}
+.tile:hover p {
+  color: #18C1EE;
+}
