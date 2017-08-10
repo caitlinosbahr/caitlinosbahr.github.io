@@ -1,0 +1,33 @@
+
+@media screen and (min-width: 40rem) {
+  .fill-hero {
+    background: #10B1DC;
+  }
+}
+
+.highlight {
+  display: inline;
+  background: #FFF100;
+  padding: .5rem
+}
+
+@media screen {
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 40rem) {
+  .hero h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .hero h1 {
+    font-size: 72px;
+  }
+}
+
+.hero img {
+  margin-left: auto;
+  border-radius: 4pt;
+}

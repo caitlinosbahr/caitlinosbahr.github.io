@@ -5,18 +5,32 @@
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/solid.2.8.3.css">
     <link rel="stylesheet" type="text/css" href="css/tasty.css">
+    <link rel="stylesheet" type="text/css" href="css/hero.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tasty</title>
   </head>
 
   <body>
     <!-- Navbar -->
-    <div class="xs-col-12 fill-tasty xs-mb3 lg-mb4 xs-text-center">
-      <img src="images/tastylogo.svg" class="logo xs-pt1 lg-pt2 hvr-grow">
+    <div class="xs-col-12 fill-tasty xs-mb3 lg-mb4 xs-text-center xs-absolute xs-z2">
+      <img src="images/tastylogo.svg" class="xs-z2 logo xs-pt1 lg-pt2 hvr-grow">
     </div>
+
+    <!-- Hero: THIS IS DONE IN A HACKY AND SHITTY WAY! Also doesn't fix letterboxing wrapping issues -->
+    <div class="hero fill-hero xs-z1 xs-mb4 sm-mb2 xs-pt6">
+      <div class="maxwidth xs-col-12 xs-mx-auto xs-px2 sm-pb4 lg-pt4 xs-flex xs-flex-align-end sm-flex-align-center">
+        <div class="xs-z2 xs-p1 xs-pb3 sm-p0 xs-col-11 sm-col-7 lg-col-6 xs-absolute">
+          <div class="xs-mb2">
+            <p class="xs-hide sm-inline-block sm-text-5 md-text-4 caps extrabold highlight">Try this</p></div>
+            <h1 class="extrabold"><span class="highlight">Beer-battered Shrimp Tacos</span></h1>
+          </div>
+        <img src="https://img.buzzfeed.com/video-api-prod/assets/6667d0ca2efb4684b4b0146a0d60870b/thumb2.jpg" class="xs-col-12 sm-col-9 md-col-5 xs-z1">
+      </div>
+    </div>
+
     <!-- Feed grid  -->
     <div class="maxwidth clearfix xs-mx-auto ">
-      <div class="xs-mx2 xs-mb1 md-mt2"><h5 class="extrabold caps text-pink">Recent recipes</h5></div>
+      <div class="xs-mx2 xs-mb1 md-mt2"><h2 class="extrabold text-pink">Recent Recipes</h2></div>
       <div class="xs-block-grid-2 sm-block-grid-3 md-block-grid-4 lg-block-grid-4 xs-mx1 xs-mb2">
         <a href="recipe.html" class="link-gray"><div class="tile block-grid__item xs-mb2">
           <div class="image-wrapper"><img src="images/rel01.png"></div>

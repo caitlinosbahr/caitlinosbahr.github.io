@@ -10,7 +10,7 @@
 }
 @media screen {
   .logo  {
-    width: 100px;
+    width: 96px;
     margin-bottom: -1.5rem;
     }
   }
@@ -25,7 +25,6 @@
   cursor: pointer;
 }
 
-
 /*Basic Typography*/
 .extrabold {
   font-weight: 800;
@@ -34,36 +33,6 @@
   color: #18C1EE;
 }
 
-/* Customized pop from hover.css library*/
-@-webkit-keyframes hvr-pop {
-  60% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-}
-@keyframes hvr-pop {
-  60% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-}
-.hvr-pop {
-  display: inline-block;
-  /*vertical-align: middle;*/
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-}
-.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
-  -webkit-animation-name: hvr-pop;
-  animation-name: hvr-pop;
-  -webkit-animation-duration: 0.2s;
-  animation-duration: 0.2s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
 
 /* Customized grow from hover.css library */
 .hvr-grow {
@@ -106,8 +75,8 @@
   transform: scale(1.05);
 }
 .tile:hover p {
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  -webkit-transition: .15s ease-in-out;
+  transition: .15s ease-in-out;
   color: #18C1EE;
 }
 
