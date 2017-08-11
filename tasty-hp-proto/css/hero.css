@@ -28,6 +28,15 @@
   }
 }
 
+
+.hero h1:hover {
+  cursor: pointer;
+}
+.hero h1:hover ::after{
+  content:"→";
+}
+/*how the heck do you animate this?*/
+
 .hero-image {
   margin-left: auto;
 }
