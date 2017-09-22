@@ -4,17 +4,25 @@
     background: #10B1DC;
   }
 }*/
-
-.highlight {
-  display: inline;
-  background: #FFF100;
-  padding: .5rem 0;
-  box-shadow: 1rem 0 0 #FFF100, -1rem 0 0 #FFF100;
+@media screen {
+  .highlight {
+    display: inline;
+    background: #FFF100;
+    padding: .25rem 0;
+    box-shadow: .5rem 0 0 #FFF100, -.5rem 0 0 #FFF100;
+  }
+}
+@media screen and (min-width: 40rem) {
+  .highlight {
+    display: inline;
+    padding: .5rem 0;
+    box-shadow: 1rem 0 0 #FFF100, -1rem 0 0 #FFF100;
+  }
 }
 
 @media screen {
   .hero h1 {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 @media screen and (min-width: 40rem) {
@@ -32,7 +40,7 @@
 .hero h1:hover {
   cursor: pointer;
 }
-.hero h1:hover ::after{
+/*.hero h1:hover ::after{
   content:"→";
 }
 /*how the heck do you animate this?*/
