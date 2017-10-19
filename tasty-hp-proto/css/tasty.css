@@ -10,23 +10,23 @@
 }
 @media screen {
   .logo  {
-    width: 96px;
-    margin-bottom: -1.2rem;
+    width: 108px;
+    margin-bottom: -2rem;
     }
   }
   @media screen and (min-width: 64rem) {
   .logo  {
-    width: 150px;
+    width: 144px;
     margin-bottom: -3rem;
     }
   }
 
-.logo {
+.pointer {
   cursor: pointer;
 }
 
 .nav-selected {
-  box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.6) inset;
 }
 
 /*Basic Typography*/
