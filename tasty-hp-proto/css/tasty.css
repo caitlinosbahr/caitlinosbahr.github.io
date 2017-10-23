@@ -26,7 +26,18 @@
 }
 
 .nav-selected {
-  box-shadow: 0px -4px 0px rgba(255, 255, 255, 0.8) inset;
+  /*box-shadow: 0px -4px 0px rgba(255, 255, 255, 0.8) inset;*/
+  box-shadow: 0px -4px 0px #FFEE00 inset;
+  color: white;
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+}
+
+.nav {
+  color: white;
+}
+
+.nav:hover {
+  color: #FFEE00;
 }
 
 /*Basic Typography*/
