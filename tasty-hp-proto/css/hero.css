@@ -1,9 +1,3 @@
-
-/*@media screen and (min-width: 40rem) {
-  .fill-hero {
-    background: #10B1DC;
-  }
-}*/
 @media screen {
   .highlight {
     display: inline;
@@ -19,7 +13,6 @@
     box-shadow: 1rem 0 0 #FFF100, -1rem 0 0 #FFF100;
   }
 }
-
 @media screen {
   .hero h1 {
     font-size: 28px;
@@ -35,16 +28,9 @@
     font-size: 64px;
   }
 }
-
-
 .hero h1:hover {
   cursor: pointer;
 }
-/*.hero h1:hover ::after{
-  content:"→";
-}
-/*how the heck do you animate this?*/
-
 .hero-image {
   margin-left: auto;
 }

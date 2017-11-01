@@ -76,7 +76,26 @@
   margin-left: -2rem;
 }
 
-
-.merch-item {
-  flex: 0 0 72pt;
+/*Tag pill style*/
+.pills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pill {
+  background-color: #18C1EE;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: .75rem;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 2rem;
+  margin: 4px 2px;
+  height: 2rem;
+  flex: none;
+}
+.pill:hover {
+  background-color: #0C7895;
+  color: white;
 }

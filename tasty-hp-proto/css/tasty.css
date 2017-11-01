@@ -26,10 +26,8 @@
 }
 
 .nav-selected {
-  /*box-shadow: 0px -4px 0px rgba(255, 255, 255, 0.8) inset;*/
   box-shadow: 0px -4px 0px #FFEE00 inset;
   color: white;
-  /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
 .nav {
@@ -56,7 +54,6 @@
 /* Customized grow from hover.css library */
 .hvr-grow {
   display: inline-block;
-  /*vertical-align: middle;*/
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
