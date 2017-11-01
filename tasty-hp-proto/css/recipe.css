@@ -1,14 +1,15 @@
 /* Recipe display title */
+.recipe--title  {
+    line-height: 1;
+  }
 @media screen and (min-width: 40rem) {
   .recipe--title  {
     font-size: 36px;
-    line-height: 1;
     }
   }
   @media screen and (min-width: 52rem) {
   .recipe--title  {
     font-size: 56px;
-    line-height: 1;
     }
   }
 
